@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD7E018314343B67000DF836 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7E018214343B67000DF836 /* UIKit.framework */; };
+		DD7E018514343B67000DF836 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7E018414343B67000DF836 /* Foundation.framework */; };
+		DD7E018714343B67000DF836 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7E018614343B67000DF836 /* CoreGraphics.framework */; };
+		DD7E018D14343B67000DF836 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD7E018B14343B67000DF836 /* InfoPlist.strings */; };
+		DD7E019014343B67000DF836 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7E018F14343B67000DF836 /* main.m */; };
+		DD7E019314343B67000DF836 /* AlohaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7E019214343B67000DF836 /* AlohaAppDelegate.m */; };
+		DD7E019614343B67000DF836 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD7E019414343B67000DF836 /* MainWindow.xib */; };
+		DD7E019914343B67000DF836 /* AlohaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7E019814343B67000DF836 /* AlohaViewController.m */; };
+		DD7E019C14343B67000DF836 /* AlohaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD7E019A14343B67000DF836 /* AlohaViewController.xib */; };
+		DDFF74FA143BEA06008965B9 /* Waiter.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFF74F9143BEA06008965B9 /* Waiter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD7E017E14343B67000DF836 /* Aloha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aloha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7E018214343B67000DF836 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD7E018414343B67000DF836 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD7E018614343B67000DF836 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD7E018A14343B67000DF836 /* Aloha-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Aloha-Info.plist"; sourceTree = "<group>"; };
+		DD7E018C14343B67000DF836 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD7E018E14343B67000DF836 /* Aloha-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Aloha-Prefix.pch"; sourceTree = "<group>"; };
+		DD7E018F14343B67000DF836 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD7E019114343B67000DF836 /* AlohaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlohaAppDelegate.h; sourceTree = "<group>"; };
+		DD7E019214343B67000DF836 /* AlohaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlohaAppDelegate.m; sourceTree = "<group>"; };
+		DD7E019514343B67000DF836 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		DD7E019714343B67000DF836 /* AlohaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlohaViewController.h; sourceTree = "<group>"; };
+		DD7E019814343B67000DF836 /* AlohaViewController.m */ = {isa = PBXFileReference; indentWidth = 5; lastKnownFileType = sourcecode.c.objc; path = AlohaViewController.m; sourceTree = "<group>"; };
+		DD7E019B14343B67000DF836 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AlohaViewController.xib; sourceTree = "<group>"; };
+		DDFF74F8143BEA06008965B9 /* Waiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Waiter.h; sourceTree = "<group>"; };
+		DDFF74F9143BEA06008965B9 /* Waiter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Waiter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD7E017B14343B67000DF836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7E018314343B67000DF836 /* UIKit.framework in Frameworks */,
+				DD7E018514343B67000DF836 /* Foundation.framework in Frameworks */,
+				DD7E018714343B67000DF836 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD7E017314343B67000DF836 = {
+			isa = PBXGroup;
+			children = (
+				DD7E018814343B67000DF836 /* Aloha */,
+				DD7E018114343B67000DF836 /* Frameworks */,
+				DD7E017F14343B67000DF836 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD7E017F14343B67000DF836 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD7E017E14343B67000DF836 /* Aloha.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD7E018114343B67000DF836 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD7E018214343B67000DF836 /* UIKit.framework */,
+				DD7E018414343B67000DF836 /* Foundation.framework */,
+				DD7E018614343B67000DF836 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD7E018814343B67000DF836 /* Aloha */ = {
+			isa = PBXGroup;
+			children = (
+				DD7E019114343B67000DF836 /* AlohaAppDelegate.h */,
+				DD7E019214343B67000DF836 /* AlohaAppDelegate.m */,
+				DD7E019414343B67000DF836 /* MainWindow.xib */,
+				DD7E019714343B67000DF836 /* AlohaViewController.h */,
+				DD7E019814343B67000DF836 /* AlohaViewController.m */,
+				DD7E019A14343B67000DF836 /* AlohaViewController.xib */,
+				DDFF74F8143BEA06008965B9 /* Waiter.h */,
+				DDFF74F9143BEA06008965B9 /* Waiter.m */,
+				DD7E018914343B67000DF836 /* Supporting Files */,
+			);
+			path = Aloha;
+			sourceTree = "<group>";
+		};
+		DD7E018914343B67000DF836 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD7E018A14343B67000DF836 /* Aloha-Info.plist */,
+				DD7E018B14343B67000DF836 /* InfoPlist.strings */,
+				DD7E018E14343B67000DF836 /* Aloha-Prefix.pch */,
+				DD7E018F14343B67000DF836 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD7E017D14343B67000DF836 /* Aloha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7E019F14343B67000DF836 /* Build configuration list for PBXNativeTarget "Aloha" */;
+			buildPhases = (
+				DD7E017A14343B67000DF836 /* Sources */,
+				DD7E017B14343B67000DF836 /* Frameworks */,
+				DD7E017C14343B67000DF836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aloha;
+			productName = Aloha;
+			productReference = DD7E017E14343B67000DF836 /* Aloha.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD7E017514343B67000DF836 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DD7E017814343B67000DF836 /* Build configuration list for PBXProject "Aloha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD7E017314343B67000DF836;
+			productRefGroup = DD7E017F14343B67000DF836 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD7E017D14343B67000DF836 /* Aloha */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD7E017C14343B67000DF836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7E018D14343B67000DF836 /* InfoPlist.strings in Resources */,
+				DD7E019614343B67000DF836 /* MainWindow.xib in Resources */,
+				DD7E019C14343B67000DF836 /* AlohaViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD7E017A14343B67000DF836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7E019014343B67000DF836 /* main.m in Sources */,
+				DD7E019314343B67000DF836 /* AlohaAppDelegate.m in Sources */,
+				DD7E019914343B67000DF836 /* AlohaViewController.m in Sources */,
+				DDFF74FA143BEA06008965B9 /* Waiter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD7E018B14343B67000DF836 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD7E018C14343B67000DF836 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD7E019414343B67000DF836 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD7E019514343B67000DF836 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		DD7E019A14343B67000DF836 /* AlohaViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD7E019B14343B67000DF836 /* en */,
+			);
+			name = AlohaViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD7E019D14343B67000DF836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD7E019E14343B67000DF836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		DD7E01A014343B67000DF836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aloha/Aloha-Prefix.pch";
+				INFOPLIST_FILE = "Aloha/Aloha-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD7E01A114343B67000DF836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aloha/Aloha-Prefix.pch";
+				INFOPLIST_FILE = "Aloha/Aloha-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD7E017814343B67000DF836 /* Build configuration list for PBXProject "Aloha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7E019D14343B67000DF836 /* Debug */,
+				DD7E019E14343B67000DF836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7E019F14343B67000DF836 /* Build configuration list for PBXNativeTarget "Aloha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7E01A014343B67000DF836 /* Debug */,
+				DD7E01A114343B67000DF836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD7E017514343B67000DF836 /* Project object */;
+}
